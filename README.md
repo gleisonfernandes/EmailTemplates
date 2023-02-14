@@ -8,7 +8,7 @@
 ## 💻 Sobre o Projeto
 
 <p align="justify">Este projeto consiste em uma aplicação web responsiva desenvolvida durante a etapa de de aprendizagem do Programa de Formação - Desenvolve 2023.
-O <strong>Email Templates</strong> é um projeto criado no Desafio 01. Que tem como objetivo Desenvolver templates de E-mail usando HTML e CSS a partir de um template no protótipo do figma, idealizada no ambito educacional, para o processo de aprendizagem das tecnologias em volvidades.</p>
+O <strong>Email Templates</strong> é um projeto criado no Desafio 01, que tem como objetivo Desenvolver templates de E-mail usando HTML e CSS a partir de um template no protótipo do figma, idealizada no ambito educacional, para o processo de aprendizagem das tecnologias envolvidades.</p>
 
 ---
 
