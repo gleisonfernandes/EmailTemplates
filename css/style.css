@@ -86,3 +86,17 @@
     width: 440px;
     border-bottom: 2px solid #C4C4C4;
 }
+
+.conteudo__img{
+    width: 440px;
+    padding: 20px 80px 0px 80px;
+}
+
+.titulo__secundario{
+    font-size: 27px;
+    height: 70px;
+}
+
+.texto__secundario{
+    font-size: 14px;
+}
