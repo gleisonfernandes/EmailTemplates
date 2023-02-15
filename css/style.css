@@ -23,3 +23,66 @@
 .img-100{
     width: 100vw;
 }
+
+.conteudo{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    margin: 30px auto 15px;
+    width: 440px;
+    height: 100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+
+    color: #000000;
+}
+
+.texto{
+    margin: 0px auto;
+    padding: 0.5rem;
+    width: 440px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+
+    color: #000000;
+}
+
+.texto__nome{
+    font-weight: bold;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px 81px 10px 81px;
+    width: 187px;
+    height: 44px;
+
+    background: #000000;
+    border-radius: 2px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.linha{
+    margin: 20px auto;
+    width: 440px;
+    border-bottom: 2px solid #C4C4C4;
+}
