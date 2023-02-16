@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding:0;
-}
 .cabecalho {
     display: flex;
     flex-direction: column;
@@ -25,8 +21,8 @@
 }
 
 .conteudo{
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    /*margin-bottom: 20px;
+    padding-bottom: 20px;*/
 }
 
 .titulo{
@@ -133,6 +129,8 @@
 	padding: 24px 0px 24px 16px;
     margin: 24px auto 0px;
 
+    box-sizing: border-box;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -188,7 +186,7 @@
 }
 
 .conteudo__final{
-    margin: 40px 0px;
+    margin-top: 40px;
     padding: 32px 80px;
     height: 223px;
 
