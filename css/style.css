@@ -112,3 +112,77 @@
 .btn__quaternario{
     width: 116px;
 }
+
+.conteudo__questionario{
+    background-color: #FEEAEA;
+    margin: 40px 0px;
+    padding: 36px 80px;
+
+}
+
+.titulo__terciario{
+    margin: 0px auto 0px;
+}
+
+.form__label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 440px;
+	padding: 24px 0px 24px 16px;
+    margin: 24px auto 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    border: 2px solid #000000;
+    border-radius: 2px;
+  
+  	position: relative;
+  	cursor: pointer;
+}
+
+.form__label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+
+.checkmark {
+    position: relative;
+    margin-right: 12px;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+   
+.form__label input:checked ~ .checkmark {
+    background-color: white;
+    border: 2px solid #2196F3;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.form__label input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.form__label .checkmark:after {
+    top: 1.7px;
+    left: 1.5px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #2196F3;
+}
