@@ -316,3 +316,34 @@ ul {
     }
     
 }
+/* Adequamdo para telas de tamanho <= 478px */
+@media screen and (max-width: 478px){
+    .cabecalho__logo {
+        width: 330px;
+    }
+    .titulo{
+        width: 330px;
+    }
+    .texto{
+        width: 330px;
+
+    }
+    .conteudo__botao{
+        width: 330px;
+    }
+    
+    .linha{
+        width: 330px;
+    }
+    
+    .conteudo__img{
+        width: 330px;
+    }
+    .form__label{
+        width: 330px;
+    }
+    .rodape__conteudo{
+        width: 330px;
+    }
+    
+}
