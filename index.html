@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="cabecalho container">
-
-        <h1 class="cabecalho__logo">
-            <img class="logo" src="img/header1.png" alt="Logo ready set grow">
-        </h1>
+    <header class="cabecalho">
+        <div class="cabecalho__titulo">
+            <h1 class="cabecalho__logo">
+                <img class="logo" src="img/header1.png" alt="Logo ready set grow">
+            </h1>
+        </div>
         <img class="img-100" src="img/header2.png" alt="Imagem de um cachorro">
 
     </header>
 
-    <section>
+    <section class="conteudo">
 
         <h2 class="titulo">There’s more to growth than consistency.</h2>
 
@@ -54,14 +55,15 @@
             you started in the first place and get that spark back. Something that 
             isn’t talked about enough in the tech world.
         </p>
-
-        <a class="botao" href="#">Grab email templates</a>
+        <div class="conteudo__botao">
+            <a class="botao" href="#">Grab email templates</a>
+        </div>
 
     </section>
 
     <hr class="linha">
 
-    <section>
+    <section class="conteudo">
         <img class="conteudo__img" src="img/href1.png" alt="">
         <h2 class="titulo titulo__secundario">The value of principles when designing.</h2>
         <p class="texto texto__secundario">
@@ -78,13 +80,15 @@
             Snapchat who innovated at the UI level and have made famous design patterns, with swiping 
             cards and stories.
         </p>
+        <div class="conteudo__botao">
+            <a class="botao btn__secundario" href="#">Listen to podcast</a>
+        </div>
 
-        <a class="botao btn__secundario" href="#">Listen to podcast</a>
     </section>
 
     <hr class="linha">
 
-    <section>
+    <section class="conteudo">
         <img class="conteudo__img" src="img/href2.png" alt="">
         <h2 class="titulo titulo__secundario">Design alignment with engineering template</h2>
         <p class="texto texto__secundario">
@@ -98,13 +102,15 @@
             and what’s being developed or has been developed. The secret sauce is having good communication and 
             putting emotions aside when comes to design alignment.
         </p>
-
-        <a class="botao btn__terciario" href="#">Grab free template</a>
+        <div class="conteudo__botao">
+            <a class="botao btn__terciario" href="#">Grab free template</a>
+        </div>
+        
     </section>
 
     <hr class="linha">
 
-    <section>
+    <section class="conteudo">
         <img class="conteudo__img" src="img/href3.png" alt="">
         <h2 class="titulo titulo__secundario">Ego Is The Enemy - My thoughts summarised for you</h2>
         <p class="texto texto__secundario">
@@ -119,13 +125,15 @@
             career by playing the “political” game and impressing people but for me personally I don’t find much 
             value and reason in doing this. A great read.
         </p>
-
-        <a class="botao btn__quaternario" href="#">Link to book</a>
+        <div class="conteudo__botao">
+            <a class="botao btn__quaternario" href="#">Link to book</a>
+        </div>
+        
     </section>
 
     <hr class="linha">
 
-    <section>
+    <section class="conteudo">
         <div class="conteudo__questionario">
             <h2 class="titulo titulo__terciario">What’s your faviourte snack when designing?</h2>
         </div>
@@ -152,7 +160,7 @@
         
     </section>
 
-    <section>
+    <section class="conteudo">
         <div class="conteudo__final">
             <p class="texto texto__final">That’s all folks!</p>
 
@@ -160,34 +168,37 @@
                 Sweet potato. Want to hear more of some things? Less of others? Just want to say hi? Let us know below! 
                 I’d love to hear from you.
             </p>
-            <a class="botao btn__quinario" href="#">Reach out to me</a>
+            <div class="conteudo__botao">
+                <a class="botao btn__quinario" href="#">Reach out to me</a>
+            </div>
         </div>
     </section>
 
     <footer class="rodape">
+        <div class="rodape__conteudo">
+            <p class="rodape__texto__primario">furquan101</p>
+            <p class="rodape__texto__segundario">Sent to you from London.</p>
+            
+            <ul class="rodape__social">
+                <li>
+                    <a href="#" class="rodape__midia" title="Youtube">
+                        <img class="rodape__midia_img" src="img/youtube.png" alt="Icone do Youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__midia" title="Twitter">
+                        <img class="rodape__midia_img" src="img/twitter.png" alt="Icone do Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__midia" title="Email">
+                        <img class="rodape__midia_img" src="img/email.png" alt="Icone do Email">
+                    </a>
+                </li>
+            </ul>
 
-        <p class="rodape__texto__primario">furquan101</p>
-        <p class="rodape__texto__segundario">Sent to you from London.</p>
-        
-        <ul class="rodape__social">
-            <li>
-                <a href="#" class="rodape__midia" title="Youtube">
-                    <img class="rodape__midia_img" src="img/youtube.png" alt="Icone do Youtube">
-                </a>
-            </li>
-            <li>
-                <a href="#" class="rodape__midia" title="Twitter">
-                    <img class="rodape__midia_img" src="img/twitter.png" alt="Icone do Twitter">
-                </a>
-            </li>
-            <li>
-                <a href="#" class="rodape__midia" title="Email">
-                    <img class="rodape__midia_img" src="img/email.png" alt="Icone do Email">
-                </a>
-            </li>
-        </ul>
-
-        <p class="rodape__texto__segundario">Feel free to <span class="texto__subliado">unsubscribe</span> anytime.</p>
+            <p class="rodape__texto__segundario">Feel free to <span class="texto__subliado">unsubscribe</span> anytime.</p>
+        </div>
     </footer>
     
 </body>
