@@ -283,3 +283,36 @@ ul {
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* Adequamdo para telas de tamanho >= 1024px */
+@media screen and (min-width: 1024px){
+    .cabecalho__logo {
+        width: 960px;
+    }
+    
+    .titulo{
+        width: 960px;
+    }
+    .texto{
+        width: 960px;
+
+    }
+    .conteudo__botao{
+        width: 960px;
+    }
+    
+    .linha{
+        width: 960px;
+    }
+    
+    .conteudo__img{
+        width: 960px;
+    }
+    .form__label{
+        width: 960px;
+    }
+    .rodape__conteudo{
+        width: 960px;
+    }
+    
+}
